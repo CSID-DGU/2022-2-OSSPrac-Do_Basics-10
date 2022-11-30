@@ -1,9 +1,10 @@
 version: "3.0"      # tag명
 
+
 services:         # 기본 문법
-  web:     # services명
+  do_basics:     # services명
     build: .      # Dockerfile의 경로
-    image: ${DOCKER_USER_ID}/hw6
+    image:  ${DOCKER_USER_ID}/hw4_img:3.0
     # command: python ./main.py
     ports:
       - "80:80" # 포트 번호 이어줌
