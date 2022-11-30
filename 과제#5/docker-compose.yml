@@ -1,5 +1,6 @@
 version: "3.0"      # tag명
 
+
 services:         # 기본 문법
   do_basics:     # services명
     build: .      # Dockerfile의 경로
